@@ -1,0 +1,19 @@
+html, body {
+  min-height: 100vh;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #EEE;
+}
+
+.card {
+  display: flex;
+  max-width: 300px;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  background-color: #FFF;
+  padding: 20px 10px;
+}

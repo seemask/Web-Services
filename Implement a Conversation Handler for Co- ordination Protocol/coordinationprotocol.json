@@ -1,0 +1,35 @@
+{
+	"startstate":["service1"],
+	"finalstate":["service7","service10"],
+	"service1":{
+		"json":"service2",
+		"xml":"service5"
+	},
+	"service2":{
+		"both":"service3"
+		
+	},
+	"service3":{
+		"json":"service4",
+		"xml":"service6"
+	},
+	"service4":{
+		"both":"service9"
+	},
+	"service5":{
+		"json":"service8",
+		"xml":"service7"
+	},
+	"service6":{
+		"both":"service5"
+	},
+	"service8":{
+		"json":"service10",
+		"xml":"service7"
+	},
+	"service9":{
+		"both":"service10"
+	}
+	
+	
+}
